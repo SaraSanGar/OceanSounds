@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "matplotlib": "^1.0.0",
+    "scipy": "^0.1.4",
+    "wave": "^0.2.3"
+  }
+}

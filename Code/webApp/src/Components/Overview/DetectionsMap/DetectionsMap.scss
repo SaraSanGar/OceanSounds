@@ -1,0 +1,27 @@
+.container {
+  height: 95%;
+}
+
+#map {
+  height: 95%;
+  border-radius: 10px;
+}
+
+.mapHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.options {
+  height: 15px;
+  width: 15px;
+  background: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.options:hover {
+  background: none;
+  transform: translateY(-3px);
+}

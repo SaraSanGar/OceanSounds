@@ -1,0 +1,62 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^4.4.2",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "leaflet": "^1.9.4",
+    "leaflet-tilelayer-wmts": "^1.0.0",
+    "leaflet.coordinates": "^0.1.5",
+    "ngeohash": "^0.6.3",
+    "node-sass": "^9.0.0",
+    "pyscript-react": "^0.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-select": "^5.8.0",
+    "react-super-responsive-table": "^5.2.2",
+    "sass": "^1.71.1",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.5.2"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1"
+  }
+}
